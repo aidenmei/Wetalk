@@ -381,7 +381,6 @@ public class Server extends Thread{
 //			fileName=in.readLine();
 //			BufferedWriter bw=new BufferedWriter(
 //					new OutputStreamWriter(
-//					new FileOutputStream("src/接收文件/临时文件")));
 //			do
 //			{
 //				judge=in.readLine();
@@ -405,7 +404,6 @@ public class Server extends Thread{
 //			System.out.println(fileContent);
 //			BufferedReader bufr=new BufferedReader(
 //					new InputStreamReader(new FileInputStream(
-//							"src/接收文件/临时文件.txt")));
 //			Socket socket1;
 //			PrintStream out1=null;
 //			for(int i=0;i<father.clients.size();i++)
