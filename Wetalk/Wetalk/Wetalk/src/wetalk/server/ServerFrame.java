@@ -33,7 +33,7 @@ public class ServerFrame extends JFrame {
 	JButton jBgetInfo=new JButton("information");
 	JButton jBkickOut=new JButton("Kick out");
 	JButton jBpauseServer=new JButton("service paused");
-	JButton jBexit=new JButton("drop out");
+	JButton jBexit=new JButton("exit");
 	DefaultListModel listModel=new DefaultListModel();
 	JList userList=new JList(listModel);
 	JScrollPane jSuserList=new JScrollPane(userList);
