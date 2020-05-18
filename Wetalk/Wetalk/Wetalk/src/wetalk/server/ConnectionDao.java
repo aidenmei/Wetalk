@@ -17,8 +17,10 @@ public class ConnectionDao {
 			System.out.println("Load driver failed");
 		}
 		try{
-			String url="jdbc:mysql://localhost:3306/test?user=root&password=5357271aiden?serverTimezone=UTC";
-		    conn=DriverManager.getConnection(url);	
+			//String url="jdbc:mysql://localhost:3306/resultout? useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC\",\"root\",\"\"5357271Aiden.";
+			String url="jdbc:mysql://localhost:3306/test?user=root&password=5357271Aiden.?serverTimezone=UTC";
+		    //conn=DriverManager.getConnection(url,"jdbc:mysql://localhost/test:mysql://localhost:3306/test?user=root&password=5357271Aiden...?serverTimezone=UTC");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost/test?serverTimezone=UTC", "root", "5357271Aiden.");
 			System.out.print("connection succeeded");
 			return conn;
 		}catch(SQLException ex){

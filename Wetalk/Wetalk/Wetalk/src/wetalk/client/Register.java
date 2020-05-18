@@ -293,7 +293,7 @@ public class Register extends JFrame {
 					 address=jTplace.getText();
 					 birth=type+"-"+y+"year"+m+"month"+d+"day";
 						try {
-							InetAddress ip=InetAddress.getByName("192.168.0.136");
+							InetAddress ip=InetAddress.getByName("192.168.29.139");
 							int port=(6544);
 							socket=new Socket(ip,port);
 							System.out.println("Connect with the server");

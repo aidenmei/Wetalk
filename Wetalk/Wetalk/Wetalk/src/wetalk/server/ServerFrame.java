@@ -180,21 +180,6 @@ public class ServerFrame extends JFrame {
 		jLtime.setFont(new Font("Times New Roman",Font.PLAIN,12));
 	}
 
-//	protected void processWindowEvent(WindowEvent e)
-//	{
-//		if(e.getID()==WindowEvent.WINDOW_CLOSED)
-//		{
-//			if(option==JOptionPane.YES_OPTION)
-//			{
-//				try {
-//					con.close();
-//					System.exit(0);
-//				} catch (SQLException e1) {
-//					e1.printStackTrace();
-//				}
-//			}
-//		}
-//	}
 	public void removeUser(String userNum)
 	{
 		String sql="UPDATE UserInformation SET Status = 0 where UserNum= '"+userNum+"'";
