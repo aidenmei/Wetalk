@@ -362,8 +362,7 @@ public class ChatView extends JFrame implements Runnable,ActionListener,KeyListe
 		String receiveInfo="";
 				while(true)
 				{
-//					 ReceiveFile f=new ReceiveFile(ChatView.this, in, out, myInfo, currentFriend);
-//						f.receive();
+
 					 Date time = new java.util.Date();
 				     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss");
 				      String timeInfo = format.format(time);
